@@ -1,4 +1,4 @@
-ALL_COLUMNS = ['Nr.', 'Name', 'Geboren', 'Aufnahme', 'Gestorben', 'Fachsektion', 'Bild', 'Datenbank', 'Beiname']
+ALL_COLUMNS = ['Nr.', 'Name', 'Geboren', 'Aufnahme', 'Gestorben', 'Fachsektion', 'Bild', 'Datenbank', 'Beiname', 'Link']
 
 RENAME_COLUMNS = {
     "Sektion": "Fachsektion",
@@ -10,4 +10,4 @@ RENAME_COLUMNS = {
 
 IRRELEVANT_COLUMNS = ['Beiname', 'Bild', 'Datenbank']
 
-SHOULD_BE_NOTEMPTY_COLS = ['Geboren', 'Gestorben', 'Fachsektion']
+SHOULD_BE_NOTEMPTY_COLS = ['Fachsektion', 'Link']
